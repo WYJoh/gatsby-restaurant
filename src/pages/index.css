@@ -1,0 +1,106 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+body {
+  background-color: #59D8CB;
+}
+h1 {
+  font-family: 'Arizonia', cursive;
+	font-size: 70px;
+	color: #05668D;
+}
+h2 {
+  font-family: 'Arizonia', cursive;
+  font-size: 55px;
+  color: #101C41;
+  margin: 20px 0;
+}
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+  color: #101C41;
+  text-align: center;
+	border-style: solid;
+	border-color: #101C41;
+	border-radius: 1em;
+	border-width: 2px;
+  background-color: #F0F3BD;
+  margin-top: 10px;
+}
+.buttonCart {
+	width: 60px;
+	position: fixed;
+	z-index: 100;
+	top: 12px;
+	right: 12px;
+	border-style: outset;
+	border-radius: 1em;
+	border-color: #4D4F2E;
+	border-width: 2px;
+	padding: 5px;
+	background-color: #D85A66;
+}
+.header {
+  background-color: #F0F3BD;
+  border-color: #4D4F2E;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+}
+.header .main-nav {
+  padding-top: 25px;
+}
+.blueFish {
+  width: 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+}
+.main-nav li {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #05668D;
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.main-nav a:hover {
+  color: #101C41;
+  text-decoration: none;
+}
+.menuItemPrev {
+  margin-top: 15px;
+}
+.foodImage {
+  width: 350px;
+  height: 250px;
+  display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border-style: outset;
+  border-color: #ECEFA9;
+}
+.foodDescription {
+  font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	text-align: left;
+  color: #101C41;
+  margin-top: 10px;
+}
+.buttonProduct {
+  margin: 0 10px 10px 10px;
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;
+}
+.footer {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: #F0F3BD;
+  border-color: #4D4F2E;
+  border-top-style: solid;
+  border-top-width: 5px;
+  margin-top: 20px;
+  padding-top: 5px;
+}
