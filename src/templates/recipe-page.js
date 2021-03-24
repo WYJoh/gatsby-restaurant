@@ -9,13 +9,11 @@ export default function RecipePage({ pageContext }) {
                 <div className="row">
                     <div className="col-sm-12">
                         <h3>{recipe.name}</h3>
-                        <image className="foodImage" src={recipe.image.file.url} alt={recipe.name} />
+                        <img className="foodImage" src={recipe.image.file.url} alt={recipe.name} />
                     </div>
 
-                    <div className="col-sm-8 col-md-6 col-lg-8">
-                        <p className="foodDescription">{recipe.description.description}</p>
-                        <a href="/" class="buttonProduct">
-			            </a>
+                    <div className="col-sm-12">
+                        <p className="foodDescriptionCenter">{recipe.description.description}</p>
                     </div>
                 </div>
             </div>

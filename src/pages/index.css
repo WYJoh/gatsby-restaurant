@@ -88,6 +88,16 @@ h3 {
   color: #101C41;
   margin-top: 10px;
 }
+.foodDescriptionCenter {
+  font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+  color: #101C41;
+  margin-top: 10px;
+}
+.alignCenter {
+  text-align: center;
+}
 .buttonProduct {
   margin: 0 10px 10px 10px;
 	font-family: 'Quicksand', sans-serif;

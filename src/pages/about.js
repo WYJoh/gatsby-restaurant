@@ -7,8 +7,6 @@ export default function About() {
 
             <h2>About Us</h2>
 
-            <p>~ Content ~</p>
-
         </Default>
     )
 }
